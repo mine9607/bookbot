@@ -32,9 +32,6 @@ def main():
   with open("books/frankenstein.txt") as f:
     file_contents = f.read()
   
-  #print(file_contents)
-  #count_words(file_contents)
-  #count_chars(file_contents)
   generate_book_report(file_contents)
 
 
